@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Profile from "./pages/Profile";
 import Documents from "./pages/Documents";
 import Dashboard from "./pages/Dashboard";
+import PersonalInfo from "./pages/PersonalInfo";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         <Route
           path="/dashboard"
           element={<Dashboard />}
+        />
+        <Route
+          path="/personalInfo"
+          element={<PersonalInfo />}
         />
 
       </Route>

@@ -10,6 +10,7 @@ function Layout() {
           <Link to="/profile">Profile</Link>
           <Link to="/documents">Documents</Link>
           <Link to="/dashboard">Dashboard</Link>
+          <Link to="/personalInfo">Personal Info</Link>
         </div>
       </nav>
 
